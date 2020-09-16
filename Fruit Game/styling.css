@@ -23,6 +23,20 @@
   -webkit-box-shadow: 0px 4px 0px #9da853;
 }
 
+#trialsleft {
+  max-width: 80px;
+  width: auto;
+  padding: 10px;
+  position: absolute;
+  background-color: #f1ff92;
+  border-radius: 3px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  /*    visibility: hidden;*/
+  display: none;
+}
+
 #display {
   max-width: 650px;
   width: auto;
@@ -66,7 +80,7 @@
   top: 170px;
   left: 94px;
   z-index: 2;
-  /* display: none; */
+  display: none;
 }
 
 
