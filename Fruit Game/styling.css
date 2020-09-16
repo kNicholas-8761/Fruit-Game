@@ -50,3 +50,29 @@
   -moz-box-shadow: 0px 4px #8153a8;
   -webkit-box-shadow: 0px 4px #8153a8;
 }
+
+#gameOver {
+  height: 200px;
+  width: 75%;
+  background: linear-gradient(#f3ca6b, #f3706c);
+  background: -webkit-linear-gradient(#f3ca6b, #f3706c);
+  background: -o-linear-gradient(#f3ca6b, #f3706c);
+  background: -moz-linear-gradient(#f3ca6b, #f3706c);
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 170px;
+  left: 94px;
+  z-index: 2;
+  /* display: none; */
+}
+
+
+@media (max-width: 480px) {
+  #gameOver {
+    font-size: 1.5em;
+    line-height: 50px;
+    left: 50px;
+  }
