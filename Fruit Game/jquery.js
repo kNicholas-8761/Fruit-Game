@@ -14,6 +14,9 @@ $(function () {
       //set score to 0
       score = 0; //set score to 0
       $("#scorevalue").html(score);
+
+      //show trials left
+      $("#trialsLeft").show();
     }
   });
 });
