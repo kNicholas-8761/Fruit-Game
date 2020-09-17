@@ -1,5 +1,5 @@
 var playing = false;
-
+var score;
 $(function () {
   //click on start reset button
 
