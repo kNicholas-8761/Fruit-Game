@@ -1,6 +1,7 @@
 var playing = false;
 var score;
 var trialsLeft;
+var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange', 'peach', 'pear', 'watermelon'];
 $(function () {
   //click on start reset button
 
@@ -39,7 +40,7 @@ $(function () {
   function startAction() {
     $("#fruit1").show();
   }
-  
+
 // generate a random fruit
   function chooseFruit(){
     $("#fruit1").attr('src' , 'images/' + fruits[Math.round(8*Math.random())] +'.png');   
