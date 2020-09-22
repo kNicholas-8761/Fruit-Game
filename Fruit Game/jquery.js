@@ -21,4 +21,10 @@ $(function () {
       trialsLeft = 3;
     }
   });
+  function addHearts(){
+    for(i = 0; i < trialsLeft; i++){
+      $("#trialsLeft").append('<img src="images/heart.png" class="life">');
+  }
+
+  }
 });
