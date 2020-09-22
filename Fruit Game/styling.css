@@ -114,3 +114,7 @@
   height: 16px;
   margin: 0 2px;
 }
+.fruit {
+  display: none;
+  position: absolute;
+}

@@ -6,12 +6,10 @@ $(function () {
 
   $("#startreset").click(function () {
     if (playing == true) {
-
       //reload page
 
       location.reload();
     } else {
-
       //we are not playing
 
       playing = true; //game initiated
@@ -25,22 +23,20 @@ $(function () {
 
       $("#trialsLeft").show();
       trialsLeft = 3;
-      addHearts()
+      addHearts();
 
-   //change button text to reset game
-   $("#startreset").html("Reset Game");
-
+      //change button text to reset game
+      $("#startreset").html("Reset Game");
     }
   });
-  function addHearts(){
-    for(i = 0; i < trialsLeft; i++){
+  function addHearts() {
+    for (i = 0; i < trialsLeft; i++) {
       $("#trialsLeft").append('<img src="images/heart.png" class="life">');
-  }
-
+    }
   }
   //start sending fruits
 
-function startAction(){
-  
-}
+  function startAction() {
+    $("#fruit1").show();
+  }
 });
