@@ -38,4 +38,9 @@ $(function () {
   }
 
   }
+  //start sending fruits
+
+function startAction(){
+  
+}
 });
