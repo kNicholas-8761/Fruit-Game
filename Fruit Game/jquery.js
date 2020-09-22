@@ -19,6 +19,7 @@ $(function () {
       //show trials left
       $("#trialsLeft").show();
       trialsLeft = 3;
+      addHearts()
     }
   });
   function addHearts(){
