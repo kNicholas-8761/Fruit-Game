@@ -39,4 +39,10 @@ $(function () {
   function startAction() {
     $("#fruit1").show();
   }
+  
+// generate a random fruit
+  function chooseFruit(){
+    $("#fruit1").attr('src' , 'images/' + fruits[Math.round(8*Math.random())] +'.png');   
+}
+
 });
