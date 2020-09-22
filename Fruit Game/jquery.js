@@ -1,5 +1,6 @@
 var playing = false;
 var score;
+var trialsLeft;
 $(function () {
   //click on start reset button
 
@@ -17,6 +18,7 @@ $(function () {
 
       //show trials left
       $("#trialsLeft").show();
+      trialsLeft = 3;
     }
   });
 });
