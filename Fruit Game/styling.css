@@ -108,14 +108,18 @@
   margin-right: 10px;
 }
 
-@media (max-width: 480px) {
+.fruit {
+  display: none;
+  position: absolute;
+  
+}
+@media (max-width:480px) {
   #gameOver {
     font-size: 1.5em;
     line-height: 50px;
     left: 50px;
   }
-}
-.fruit {
-  /* display: none; */
-  position: absolute;
+  .fruit{
+    width: 45px;
+  }
 }
